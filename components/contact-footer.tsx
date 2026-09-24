@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowUpRight, Mail } from "lucide-react"
+import { ArrowUpRight, Mail, Phone } from "lucide-react"
 import { profile } from "@/lib/profile"
 
 const KaggleIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -23,6 +23,7 @@ const LinkedinIcon = (props: React.SVGProps<SVGSVGElement>) => (
 export function ContactFooter() {
   const socials = [
     { label: "Email", href: `mailto:${profile.email}`, Icon: Mail },
+    { label: profile.phone, href: `tel:${profile.phone}`, Icon: Phone },
     { label: "GitHub", href: profile.links.github, Icon: GithubIcon },
     { label: "LinkedIn", href: profile.links.linkedin, Icon: LinkedinIcon },
     { label: "Kaggle", href: profile.links.kaggle, Icon: KaggleIcon },

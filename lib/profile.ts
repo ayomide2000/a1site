@@ -4,17 +4,19 @@
 // ============================================================================
 
 export const profile = {
-  name: "Your Name",
-  initials: "YN",
+  name: "Ayomide Agbaje",
+  initials: "AA",
   role: "Data Scientist & Mechanical Engineer",
   tagline:
     "I turn messy data into decisions and physical ideas into working hardware — bridging machine learning, Python, and mechanical design.",
   location: "City, Country",
   available: true,
-  email: "you@example.com",
+  email: "paperrchaser77@gmail.com",
+  phone: "09112449207",
   links: {
     github: "https://github.com/your-handle",
-    linkedin: "https://linkedin.com/in/your-handle",
+    linkedin:
+      "https://linkedin.com/in/ayomide-agbaje-a1815a439",
     kaggle: "https://kaggle.com/your-handle",
     resume: "/resume.pdf",
   },
