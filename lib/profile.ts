@@ -9,7 +9,7 @@ export const profile = {
   role: "Data Scientist & Mechanical Engineer",
   tagline:
     "I turn messy data into decisions and physical ideas into working hardware — bridging machine learning, Python, and mechanical design.",
-  location: "City, Country",
+  location: "Lagos, Nigeria",
   available: true,
   email: "paperrchaser77@gmail.com",
   phone: "09112449207",
