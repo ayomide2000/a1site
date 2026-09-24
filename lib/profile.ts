@@ -14,10 +14,10 @@ export const profile = {
   email: "paperrchaser77@gmail.com",
   phone: "09112449207",
   links: {
-    github: "https://github.com/your-handle",
+    github: "https://github.com/ayomide2000",
     linkedin:
       "https://linkedin.com/in/ayomide-agbaje-a1815a439",
-    kaggle: "https://kaggle.com/your-handle",
+    kaggle: "https://www.kaggle.com/ayomide2000",
     resume: "/resume.pdf",
   },
 } as const
